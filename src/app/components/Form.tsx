@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import styles from '../page.module.css'
 
-const Form = () => {
+export default function Form() {
     const [showPassword, setShowPassword] = useState(false);
     const [showPassword2, setShowPassword2] = useState(false);
     const [email, setEmail] = useState('');
@@ -83,5 +83,3 @@ const Form = () => {
         </form>
     )
 }
-
-export default Form

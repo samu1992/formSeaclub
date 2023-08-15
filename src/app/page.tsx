@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import styles from './page.module.css'
 import Form from './components/Form'
+import Link from 'next/link'
 
 export default function Home() {
   const [checked, setChecked] = useState(false)
@@ -20,7 +21,8 @@ export default function Home() {
           width={120}
           height={90}
           />
-          <button className={styles.lightButton}>Login</button>
+          <Link href='/locations/login'><button className={styles.lightButton}>Login</button></Link>
+          
         </section>
         <div className={styles.text}>
           <h5 className={styles.h5}>Welcome!</h5>
