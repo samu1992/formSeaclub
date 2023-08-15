@@ -23,7 +23,7 @@ export default function Login (){
         </section>
         <div className={styles.text}>
           <h5 className={styles.h5}>Welcome back!</h5>
-          <p className={styles.p}>Login whit</p>
+          <p className={styles.p}>Login with</p>
         </div>
         <section className={styles.terms}>
           <div id='checkbox' className={styles.checkbox}></div>
