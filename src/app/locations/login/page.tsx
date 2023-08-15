@@ -5,6 +5,7 @@ import Link from 'next/link'
 import styles from '../../page.module.css'
 import Media from '@/app/components/SocialMedia'
 import LoginForm from '@/app/components/Form2'
+import Checkbox from '@/app/components/Check'
 
 export default function Login (){
 
@@ -26,7 +27,7 @@ export default function Login (){
           <p className={styles.p}>Login with</p>
         </div>
         <section className={styles.terms}>
-          <div id='checkbox' className={styles.checkbox}></div>
+          <Checkbox/>
           <label>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
         </section>
         <Media />

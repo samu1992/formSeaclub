@@ -69,3 +69,17 @@ body {
     color-scheme: dark;
   }
 }
+#checkbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  padding: 2px;
+  border: 1px solid rgba(103, 110, 118, 0.8) ;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.checked{
+  background-color: #000;
+}

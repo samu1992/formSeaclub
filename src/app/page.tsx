@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import Form from './components/Form'
 import Link from 'next/link'
 import Media from './components/SocialMedia'
+import Checkbox from './components/Check'
 
 export default function Home() {
   const [checked, setChecked] = useState(false)
@@ -29,7 +30,7 @@ export default function Home() {
           <p className={styles.p}>How would you like to get started?</p>
         </div>
         <section className={styles.terms}>
-          <div id='checkbox' className={styles.checkbox}></div>
+          <Checkbox/>
           <label>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
         </section>
         <Media />
