@@ -6,6 +6,7 @@ import Form from './components/Form'
 import Link from 'next/link'
 import Media from './components/SocialMedia'
 import Checkbox from './components/Check'
+import Ellipse from './components/Ellipse'
 
 export default function Home() {
   const [checked, setChecked] = useState(false)
@@ -41,7 +42,7 @@ export default function Home() {
         </section>
         <Form />
       </main>
-      <div className={styles.ellipse}>aca estoy</div>
+      <Ellipse/>
     </main>
   )
 }

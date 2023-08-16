@@ -203,7 +203,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 
   font-size: 16px;
 }
 .ellipse{
-  width: 580px;
+  width:40%;
   height: 500px;
   display: flex;
   position: absolute;
@@ -234,6 +234,9 @@ top: 200px;
   .label{
     font-size: 10px;
   }
+  .ellipse{
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 400px){
   .h5{
@@ -250,5 +253,15 @@ top: 200px;
   }
   .socialMedia{
     margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .ellipse{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .ellipse{
+    width: 70%;
   }
 }
