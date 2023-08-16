@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import styles from '../page.module.css'
+import { DM_Sans } from 'next/font/google';
 
 export default function Form() {
     const [showPassword, setShowPassword] = useState(false);

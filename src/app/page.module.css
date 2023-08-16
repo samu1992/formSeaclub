@@ -5,7 +5,6 @@
   align-items: center;
   padding: 4rem 6rem;
   min-height: 100vh;
-  font-family: sans-serif;
 }
 
 
@@ -14,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 70px;
   margin-bottom: 250px;
   max-width: 600px;
   gap: 25px;
@@ -41,6 +40,8 @@ border-bottom: 1px solid rgba(103, 110, 118, 0.16) ;
   border: none;
   border-radius: 50px;
   color: var(--black-800, #151920);
+  font-family: var(--font-dmsans);
+  font-weight: 500;
 background: var(--primary-white, #FFF);
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08);
 }
@@ -199,7 +200,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 
   position: absolute;
   color: rgba(21, 25, 32, 0.5);
   border: none;
-  left: 84%;
+  left: 82%;
   font-size: 16px;
 }
 .ellipse{
@@ -213,6 +214,12 @@ background: var(--brand-purple-light, #7E7EFF);
 filter: blur(100px);
 z-index: 10;
 top: 200px;
+}
+.bal{
+  position: absolute;
+  z-index: 60;
+  top: 550px;
+  left: -70px;
 }
 
 @media only screen and (max-width: 500px){
@@ -236,6 +243,10 @@ top: 200px;
   }
   .ellipse{
     width: 80%;
+  }
+  .bal{
+    width: 80px;
+    height: 80px;
   }
 }
 @media only screen and (max-width: 400px){

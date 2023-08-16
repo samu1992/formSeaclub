@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <main className={styles.containerLogin}>
+        <Image src='/Ellipse 21.svg' width={120} height={120} alt='bal' className={styles.bal}/>
         <section className={styles.light}>
           <Image
             src='Layer_2.svg'
