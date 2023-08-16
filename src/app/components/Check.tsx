@@ -6,7 +6,7 @@ import '../globals.css'
 export default function Checkbox (){
     const [checked, setChecked] = useState(false)
     const handleClick = () => {
-      setChecked(!checked)
+        setChecked(!checked)
     }
 
     return (

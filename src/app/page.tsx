@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <section className={styles.terms}>
           <Checkbox/>
-          <label>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
+          <label className={styles.label}>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
         </section>
         <Media />
         <section className={styles.containerOr}>
@@ -41,6 +41,7 @@ export default function Home() {
         </section>
         <Form />
       </main>
+      <div className={styles.ellipse}>aca estoy</div>
     </main>
   )
 }

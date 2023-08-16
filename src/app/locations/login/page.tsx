@@ -9,7 +9,6 @@ import Checkbox from '@/app/components/Check'
 
 export default function Login (){
 
-
   return (
     <main className={styles.main}>
       <main className={styles.containerLogin}>
@@ -28,7 +27,7 @@ export default function Login (){
         </div>
         <section className={styles.terms}>
           <Checkbox/>
-          <label>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
+          <label className={styles.label}>I have read and agree to the <span className={styles.span}>Terms & Conditions</span> and <span className={styles.span}>Privacy Policy.</span></label>
         </section>
         <Media />
         <section className={styles.containerOr}>
