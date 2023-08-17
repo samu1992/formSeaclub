@@ -6,12 +6,14 @@ import styles from '../../page.module.css'
 import Media from '@/app/components/SocialMedia'
 import LoginForm from '@/app/components/Form2'
 import Checkbox from '@/app/components/Check'
+import Ellipse from '@/app/components/Ellipse'
 
 export default function Login (){
 
   return (
     <main className={styles.main}>
       <main className={styles.containerLogin}>
+      <Image src='/Ellipse 21.svg' width={120} height={120} alt='bal' className={styles.bal}/>
         <section className={styles.light}>
           <Image
             src='/Layer_2.svg'
@@ -37,6 +39,7 @@ export default function Login (){
         </section>
         <LoginForm />
       </main>
+      <Ellipse/>
     </main>
   )
 }
